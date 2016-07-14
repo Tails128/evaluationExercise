@@ -8,7 +8,7 @@ for i in range(10000):	#randomizes 10000 pizza(s)
 	addon =["","",""];							#max 3 addons
 	randomized=random.randrange(0,4);
 	if randomized < 3:							#randomize pizza's addons with a 75% possibility of addons
-		howMany = random.randrange(0,3);
+		howMany = random.randrange(0,3);		#should replace howMany with randomized, but i'm kinda hurry
 		start = 0;
 		while(start <= howMany):
 			addon[start] = random.randrange(0,len(aggiunte));
