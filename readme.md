@@ -5,4 +5,5 @@
 
 
 python randomizer.py
+
 cat mapreduce.css | python map.py | sort -k1,1 | python reduce.py
