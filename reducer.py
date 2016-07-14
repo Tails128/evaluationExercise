@@ -2,7 +2,7 @@ import fileinput
 
 indexAdding = 0			#idMachine's position
 indexTotal = 1				#downtime's position
-currentindex = 'capricciosa'			#starting index
+currentindex = 'bufala'			#starting index
 total = 0					#total addings
 
 
